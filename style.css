@@ -1,0 +1,57 @@
+body{
+    background: url(bg.jpg);
+}
+#display {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    overflow: scroll;
+    height:280px;
+
+    
+    
+}
+
+
+p {
+    border-radius: 10px;
+    margin-top:5px;
+    background-color: #0f4fff;
+    width:auto;
+    /* float: right; */
+    padding:4%;
+    text-align: right;
+    
+    
+}
+.contain{
+    height: 420px;
+    width:25%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:50px;
+    border-radius:50px;
+    border:10px solid black;
+    padding:2%;
+    background-color: white;
+    
+    
+    
+}
+h6 {
+    color:black;
+    text-align: right;
+    
+}
+
+input{
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid black;
+}
+input:focus {outline:0;}
+button{
+    
+    width:100%;
+    
+}
+button:focus {outline:0;}
